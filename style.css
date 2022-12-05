@@ -1,0 +1,246 @@
+*
+{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url(R.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: rgb(5, 71, 5);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 130px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active,.menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(68, 95, 68);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 135px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:#b2ff00 ;
+}
+.menu-bar .fa{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.logo{
+    border-radius: 50px;
+    margin-right: 2000px;
+    padding: 5px;
+    padding-bottom: none;
+    margin-top: -75px;
+    padding-left: 15px;
+}
+
+
+
+
+/* This is the style for ABOUT PAGE*/
+
+h1{
+    color:rgb(141, 233, 21) ;
+    padding-bottom: 5px;
+}
+
+.sec1{
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;    
+}
+.mv{
+    background-color: rgba(76, 76, 134, 0.5);
+    box-sizing: border-box;
+    padding: 25px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;    
+}
+h2{margin-top: 100px;
+}
+.pcs img {
+   
+    background-position: center;
+    position: absolute;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    
+   }
+
+/* This is the style for HOME PAGE*/
+.home h1{
+    color: rgb(4, 31, 22);
+    padding-left: 300px; 
+    padding-top: 25px;
+    background:rgba(220, 140, 240, 0.5)
+}
+.home p{
+    color: rgb(43, 40, 40);
+    text-align: left;
+}
+
+.home p img{
+    padding: 5px;
+}
+
+
+/* This is the style for SERVCE PAGE*/
+.service {
+    padding: 20px;   
+    background:rgba(107, 125, 230, 0.5)
+}
+
+/*Dropdown Section*/
+
+.service {
+    padding-left: 150px;
+}
+
+.elect h1 {
+    color: aqua;
+} 
+
+.row {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    
+}
+
+.row h1 {
+    color: #fff;
+    font-size: 100% 
+         
+}
+.col p{
+    color: #fff;
+    margin-inline-end: auto;
+}
+
+.col {
+    flex-basis: 86%
+}
+.card {
+    width: 280px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 5px;
+    background-position: center;
+    background-size: cover;
+}
+/* Card Civil*/
+.card1 {background-image: url(Images/Cvl/FB_IMG_1663156247912.jpg);
+}
+
+.card2 {background-image: url(Images/Cvl/FB_IMG_1663157160132.jpg);
+}
+.card3 {background-image: url(Images/Cvl/FB_IMG_1663157162488.jpg);
+}
+.card4 {background-image: url(Images/Cvl/FB_IMG_1663157715284.jpg);
+}
+.card5 {background-image: url(Images/Cvl/FB_IMG_1663157833992.jpg);
+}
+.card6 {background-image: url(Images/Cvl/FB_IMG_1663157925740.jpg);
+}
+
+/* Card Building*/
+.card7 {background-image: url(Images/Carptry/FB_IMG_1663158791596.jpg);
+}
+.card8 {background-image: url(Images/Carptry/FB_IMG_1663158479582.jpg);
+}
+.card9 {background-image: url(Images/Carptry/FB_IMG_1663157244469.jpg);
+}
+.card10 {background-image: url(Images/Carptry/FB_IMG_1663158446784.jpg);
+}
+.card11 {background-image: url(Images/Carptry/FB_IMG_1663159412732.jpg);
+}
+.card12 {background-image: url(Images/Carptry/FB_IMG_1663159839549.jpg);
+}
+
+/* Card Electrical*/
+.card13 {background-image: url(Images/Elect/FB_IMG_1663156203378.jpg);
+}
+.card14 {background-image: url(Images/Elect/FB_IMG_1663156208197.jpg);
+}
+.card15 {background-image: url(Images/Elect/FB_IMG_1663158636817.jpg);
+}
+.card16 {background-image: url(Images/Elect/FB_IMG_1663158634010.jpg);
+}
+.card17 {background-image: url(Images/Elect/FB_IMG_1663158411307.jpg);
+}
+.card18 {background-image: url(Images/Elect/FB_IMG_1663158631611.jpg);
+}
+
+/* Card Mechanical*/
+.card19 {background-image: url(Images/Workshop/FB_IMG_1663158749307.jpg);
+}
+.card20 {background-image: url(Images/Workshop/FB_IMG_1663158890544.jpg);
+}
+.card21 {background-image: url(Images/Workshop/FB_IMG_1663159709362.jpg);
+}
+.card22 {background-image: url(Images/Workshop/FB_IMG_1663159711519.jpg);
+}
+.card23 {background-image: url(Images/Workshop/FB_IMG_1663159858318.jpg);
+}
+.card24 {background-image: url(Images/Workshop/FB_IMG_1663159865851.jpg);
+}
+
+/* Card Shut*/
+.card25 {background-image: url(Images/Shut/IMG_20220401_193201_627.jpg);
+}
+.card26 {background-image: url(Images/Shut/IMG_20220402_194152_479.jpg);
+}
+.card27 {background-image: url(Images/Shut/IMG_20220407_034530_244.jpg)
+}
+.card28 {background-image: url(Images/Shut/IMG_20220408_202600_936.jpg);
+}
+.card29 {background-image: url(Images/Shut/IMG_20220408_205231_151.jpg);
+}
+.card30 {background-image: url(Images/Shut/IMG_20220409_022641_861.jpg);
+}
